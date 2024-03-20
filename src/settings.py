@@ -7,6 +7,8 @@ import os
 # путь к файлу шаблона для создания входного файла
 TEMPLATE_FILE_PATH: str = os.getenv("TEMPLATE_FILE_PATH", "../media/template.xlsx")
 
+# Стиль цитирования
+# CITATION:
 # путь к входному файлу
 INPUT_FILE_PATH: str = os.getenv("INPUT_FILE_PATH", "../media/input.xlsx")
 # путь к выходному файлу
